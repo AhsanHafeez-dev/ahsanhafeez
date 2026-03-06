@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About and Experience - DevPortfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#195de6",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#111621",
+                        "surface-dark": "#1a2133",
+                        "surface-darker": "#151b29",
+                        "border-dark": "#2d3a59"
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen antialiased selection:bg-primary selection:text-white">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 sm:px-8 md:px-16 lg:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col w-full max-w-[960px] flex-1">
+<!-- TopNavBar -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-300 dark:border-border-dark px-4 sm:px-10 py-4 mb-8">
+<div class="flex items-center gap-3">
+<div class="size-6 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined !text-2xl">code</span>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-tight">DevPortfolio</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<nav class="flex items-center gap-8">
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors duration-200" href="#">Home</a>
+<a class="text-sm font-medium leading-normal text-primary" href="#">About &amp; Experience</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors duration-200" href="#">Projects</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors duration-200" href="#">Contact</a>
+</nav>
+<button class="flex items-center justify-center rounded-lg h-10 px-5 bg-primary hover:bg-primary/90 text-white text-sm font-bold transition-all duration-200 shadow-md shadow-primary/20">
+<span>Download CV</span>
+</button>
+</div>
+<button class="md:hidden flex items-center justify-center p-2 rounded-lg bg-slate-200 dark:bg-surface-dark text-slate-700 dark:text-slate-300">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<!-- Page Header -->
+<div class="flex flex-col gap-3 px-4 mb-8">
+<h1 class="text-4xl md:text-5xl font-black leading-tight tracking-tight">About &amp; Experience</h1>
+<p class="text-slate-500 dark:text-slate-400 text-lg max-w-2xl">A professional journey through code, architecture, and creative problem solving.</p>
+</div>
+<!-- Profile Section -->
+<div class="p-4 mb-12">
+<div class="flex flex-col md:flex-row gap-8 items-center md:items-start bg-white dark:bg-surface-dark p-6 rounded-xl border border-slate-200 dark:border-border-dark shadow-sm">
+<div class="shrink-0 relative">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-32 w-32 md:h-40 md:w-40 border-4 border-background-light dark:border-background-dark shadow-lg relative z-10" data-alt="Professional developer headshot smiling" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAo6jwrsOCwKSWvGOH8JHijnSx0awwR7shepnj46gVQt3JpMmsnWfGetXU66kglmaCdthHu2MCJn09fXlnPsEOqs6Y0ONh2HNOoqPPMFYKu3TPzXx59Ts96SDVq54ORzRsiN2gTjyDhdb-JaRC29veU0gHtb4eUJEqeFTwN2-LWe8trDMmyRUYOKr8jvNH-URh74BCJrQo_Y28FooHPc8BOvVvpgr5kgXG1Lm4g_1Il5-rXjgdD1p3OJNMgJH45ierEUsIvdb8AdJ2W");'></div>
+<div class="absolute inset-0 bg-primary/20 rounded-full blur-xl -z-0 transform scale-110"></div>
+</div>
+<div class="flex flex-col justify-center text-center md:text-left flex-1">
+<h2 class="text-2xl md:text-3xl font-bold mb-1">Jane Doe</h2>
+<p class="text-primary font-medium text-lg mb-3">Senior Full Stack Developer</p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6 max-w-xl">
+                                I'm a passionate developer with over 5 years of experience building scalable web applications. I specialize in React, Node.js, and cloud architecture. My goal is to create elegant solutions to complex problems while focusing on user experience and performance.
+                            </p>
+<div class="flex flex-wrap gap-3 justify-center md:justify-start">
+<a class="flex items-center gap-2 text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">mail</span>
+<span class="text-sm font-medium">jane.doe@example.com</span>
+</a>
+<a class="flex items-center gap-2 text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">location_on</span>
+<span class="text-sm font-medium">San Francisco, CA</span>
+</a>
+<a class="flex items-center gap-2 text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">link</span>
+<span class="text-sm font-medium">github.com/janedoe</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 px-4 mb-16">
+<!-- Experience Timeline -->
+<div class="lg:col-span-7">
+<div class="flex items-center gap-3 mb-8">
+<span class="material-symbols-outlined text-primary text-2xl">work</span>
+<h2 class="text-2xl font-bold">Experience</h2>
+</div>
+<div class="relative border-l-2 border-slate-200 dark:border-border-dark ml-3 space-y-8 pb-4">
+<!-- Timeline Item 1 -->
+<div class="relative pl-8 group">
+<div class="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-2 border-primary bg-background-light dark:bg-background-dark group-hover:bg-primary transition-colors duration-300"></div>
+<div class="bg-white dark:bg-surface-dark p-5 rounded-xl border border-slate-200 dark:border-border-dark shadow-sm hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300">
+<div class="flex flex-wrap justify-between items-start gap-2 mb-2">
+<h3 class="text-lg font-bold">Senior Full Stack Developer</h3>
+<span class="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
+                                            Jan 2021 - Present
+                                        </span>
+</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium mb-4 flex items-center gap-1">
+<span class="material-symbols-outlined text-base">business</span>
+                                        TechCorp Inc.
+                                    </p>
+<ul class="space-y-2 text-slate-600 dark:text-slate-300 text-sm list-disc list-inside">
+<li>Architected and implemented a microservices transition, improving system scalability by 40%.</li>
+<li>Led a team of 4 developers in rebuilding the core customer dashboard using React and Tailwind CSS.</li>
+<li>Reduced CI/CD deployment time by 50% through GitHub Actions optimization.</li>
+</ul>
+</div>
+</div>
+<!-- Timeline Item 2 -->
+<div class="relative pl-8 group">
+<div class="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-2 border-slate-400 dark:border-slate-500 bg-background-light dark:bg-background-dark group-hover:border-primary transition-colors duration-300"></div>
+<div class="bg-white dark:bg-surface-dark p-5 rounded-xl border border-slate-200 dark:border-border-dark shadow-sm hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300">
+<div class="flex flex-wrap justify-between items-start gap-2 mb-2">
+<h3 class="text-lg font-bold">Web Developer</h3>
+<span class="inline-flex items-center rounded-full bg-slate-100 dark:bg-surface-darker px-2.5 py-0.5 text-xs font-medium text-slate-600 dark:text-slate-400">
+                                            Mar 2018 - Dec 2020
+                                        </span>
+</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium mb-4 flex items-center gap-1">
+<span class="material-symbols-outlined text-base">business</span>
+                                        CreativeAgency
+                                    </p>
+<ul class="space-y-2 text-slate-600 dark:text-slate-300 text-sm list-disc list-inside">
+<li>Developed responsive e-commerce platforms for 15+ clients using Next.js and Shopify APIs.</li>
+<li>Implemented complex animations and interactions using Framer Motion.</li>
+<li>Collaborated closely with UI/UX designers to ensure pixel-perfect implementations.</li>
+</ul>
+</div>
+</div>
+<!-- Timeline Item 3 -->
+<div class="relative pl-8 group">
+<div class="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-2 border-slate-400 dark:border-slate-500 bg-background-light dark:bg-background-dark group-hover:border-primary transition-colors duration-300"></div>
+<div class="bg-white dark:bg-surface-dark p-5 rounded-xl border border-slate-200 dark:border-border-dark shadow-sm hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300">
+<div class="flex flex-wrap justify-between items-start gap-2 mb-2">
+<h3 class="text-lg font-bold">Junior Developer</h3>
+<span class="inline-flex items-center rounded-full bg-slate-100 dark:bg-surface-darker px-2.5 py-0.5 text-xs font-medium text-slate-600 dark:text-slate-400">
+                                            Jun 2016 - Feb 2018
+                                        </span>
+</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium mb-4 flex items-center gap-1">
+<span class="material-symbols-outlined text-base">business</span>
+                                        StartUpInc
+                                    </p>
+<ul class="space-y-2 text-slate-600 dark:text-slate-300 text-sm list-disc list-inside">
+<li>Maintained legacy PHP applications and assisted in migrating them to Node.js.</li>
+<li>Wrote comprehensive unit and integration tests using Jest.</li>
+<li>Participated in daily stand-ups and sprint planning sessions.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- Skills & Education -->
+<div class="lg:col-span-5 space-y-10">
+<!-- Skills Section -->
+<div>
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-primary text-2xl">psychology</span>
+<h2 class="text-2xl font-bold">Technical Skills</h2>
+</div>
+<div class="bg-white dark:bg-surface-dark p-6 rounded-xl border border-slate-200 dark:border-border-dark shadow-sm">
+<div class="space-y-5">
+<!-- Skill 1 -->
+<div>
+<div class="flex justify-between mb-1">
+<span class="text-sm font-medium">Frontend (React, Vue)</span>
+<span class="text-sm text-primary font-bold">90%</span>
+</div>
+<div class="w-full bg-slate-100 dark:bg-surface-darker rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-2 rounded-full" style="width: 90%"></div>
+</div>
+</div>
+<!-- Skill 2 -->
+<div>
+<div class="flex justify-between mb-1">
+<span class="text-sm font-medium">Backend (Node.js, Python)</span>
+<span class="text-sm text-primary font-bold">85%</span>
+</div>
+<div class="w-full bg-slate-100 dark:bg-surface-darker rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-2 rounded-full" style="width: 85%"></div>
+</div>
+</div>
+<!-- Skill 3 -->
+<div>
+<div class="flex justify-between mb-1">
+<span class="text-sm font-medium">Database (SQL, MongoDB)</span>
+<span class="text-sm text-primary font-bold">80%</span>
+</div>
+<div class="w-full bg-slate-100 dark:bg-surface-darker rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-2 rounded-full" style="width: 80%"></div>
+</div>
+</div>
+<!-- Skill 4 -->
+<div>
+<div class="flex justify-between mb-1">
+<span class="text-sm font-medium">DevOps (Docker, AWS)</span>
+<span class="text-sm text-primary font-bold">70%</span>
+</div>
+<div class="w-full bg-slate-100 dark:bg-surface-darker rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-2 rounded-full" style="width: 70%"></div>
+</div>
+</div>
+<!-- Skill 5 -->
+<div>
+<div class="flex justify-between mb-1">
+<span class="text-sm font-medium">UI/UX Design (Figma)</span>
+<span class="text-sm text-primary font-bold">75%</span>
+</div>
+<div class="w-full bg-slate-100 dark:bg-surface-darker rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-2 rounded-full" style="width: 75%"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Education Section -->
+<div>
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-primary text-2xl">school</span>
+<h2 class="text-2xl font-bold">Education</h2>
+</div>
+<div class="bg-white dark:bg-surface-dark p-5 rounded-xl border border-slate-200 dark:border-border-dark shadow-sm">
+<div class="flex flex-col gap-4">
+<div class="border-b border-slate-200 dark:border-border-dark pb-4 last:border-0 last:pb-0">
+<h3 class="font-bold text-lg">M.S. Computer Science</h3>
+<p class="text-primary text-sm font-medium">University of Technology</p>
+<p class="text-slate-500 dark:text-slate-400 text-sm mt-1">2014 - 2016</p>
+</div>
+<div class="border-b border-slate-200 dark:border-border-dark pb-4 last:border-0 last:pb-0">
+<h3 class="font-bold text-lg">B.S. Software Engineering</h3>
+<p class="text-primary text-sm font-medium">State College</p>
+<p class="text-slate-500 dark:text-slate-400 text-sm mt-1">2010 - 2014</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="border-t border-slate-200 dark:border-border-dark py-8 mt-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+<p class="text-slate-500 dark:text-slate-400 text-sm">© 2023 Jane Doe. All rights reserved.</p>
+<div class="flex gap-4">
+<a class="text-slate-400 hover:text-primary transition-colors" href="#">
+<span class="sr-only">GitHub</span>
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24">
+<path clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" fill-rule="evenodd"></path>
+</svg>
+</a>
+<a class="text-slate-400 hover:text-primary transition-colors" href="#">
+<span class="sr-only">LinkedIn</span>
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24">
+<path clip-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" fill-rule="evenodd"></path>
+</svg>
+</a>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</body></html>

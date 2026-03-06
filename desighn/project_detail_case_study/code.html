@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Project Detail Case Study</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#195de6",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#111621",
+                        "surface-dark": "#1e2433",
+                        "surface-hover": "#2a3245",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display min-h-screen">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Header -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-surface-hover bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md px-10 py-4">
+<div class="flex items-center gap-4">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em] hover:text-primary transition-colors cursor-pointer">DevPortfolio</h2>
+</div>
+<div class="flex items-center gap-8">
+<nav class="hidden md:flex items-center gap-9">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Work</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">About</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 border-2 border-primary/20 hover:border-primary transition-colors cursor-pointer" data-alt="Profile picture of developer" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAuZ9c32m5rQBe3xPVwLDPOaMq0LcXejPelFtfNWSXK-ffZGxqoo4RMZO5EPcq7dxykZPmdZPQZ6pEVq9wdik4yBsXblwDf_sg_xnfR7z7fWLNBrkcpR_WWgEveXfNGSTfBIAJOTpEjy2QAwtDy5RS_jY88e1_MGTe25RAI0q-ox2ff4LGt3vtqtjoVW33cdN8Bp4EdcFCnFx0MJEkA4NWhzPsq3tkQ0CT-c2SLk8EsylFmgJnMat0VVEIUKv-h7tD44d1dZIWVryE8");'></div>
+</div>
+</header>
+<div class="flex flex-1 w-full max-w-7xl mx-auto">
+<!-- Sidebar Navigation -->
+<aside class="hidden lg:flex w-64 flex-col gap-8 py-10 pr-8 sticky top-20 h-[calc(100vh-80px)] border-r border-slate-200 dark:border-surface-hover">
+<div class="flex flex-col gap-1">
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg bg-primary/10 text-primary transition-colors group" href="#overview">
+<span class="material-symbols-outlined text-[20px] group-hover:scale-110 transition-transform">dashboard</span>
+<span class="text-sm font-semibold">Overview</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-surface-hover transition-colors group text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100" href="#challenge">
+<span class="material-symbols-outlined text-[20px] group-hover:scale-110 transition-transform">target</span>
+<span class="text-sm font-medium">The Challenge</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-surface-hover transition-colors group text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100" href="#solution">
+<span class="material-symbols-outlined text-[20px] group-hover:scale-110 transition-transform">lightbulb</span>
+<span class="text-sm font-medium">The Solution</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-surface-hover transition-colors group text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100" href="#tech">
+<span class="material-symbols-outlined text-[20px] group-hover:scale-110 transition-transform">code</span>
+<span class="text-sm font-medium">Tech Used</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-surface-hover transition-colors group text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100" href="#gallery">
+<span class="material-symbols-outlined text-[20px] group-hover:scale-110 transition-transform">gallery_thumbnail</span>
+<span class="text-sm font-medium">Gallery</span>
+</a>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="flex-1 min-w-0 pb-20">
+<!-- Hero Section -->
+<div class="p-4 sm:p-6 lg:p-8" id="overview">
+<div class="relative flex min-h-[400px] md:min-h-[500px] w-full flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-2xl items-start justify-end p-8 md:p-12 overflow-hidden" data-alt="Cinematic workspace showing code on monitors" style='background-image: linear-gradient(rgba(17, 22, 33, 0.4) 0%, rgba(17, 22, 33, 0.9) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCqwFSiQLUlopuDdiWnSELOg1GFsocuGEubgGlCWO3xX3A63fEME9MFTXPuJOrTj-cadzCg9Txt4KzZ-vDY9JqEcBQII2DetYfJEIeC226lBoPawMl4VbUVN4MvRkOHbLFZNuzgFUMIeI6VpykdKcGhIgjIk0ug_31zKW569Cri1FhR51vaq0Hyii6ulXGJK10rHC9G_tnYq6j0GTsNMmh7ChHmYSYOZn73H6cGBGOJCzs8AYCsP1nLDkHY6bpv9O0EiatqCc07y6Ey");'>
+<div class="relative z-10 flex flex-col gap-4 max-w-3xl">
+<div class="flex gap-2">
+<span class="px-3 py-1 text-xs font-semibold rounded-full bg-primary/20 text-white backdrop-blur-sm border border-primary/30">FinTech</span>
+<span class="px-3 py-1 text-xs font-semibold rounded-full bg-surface-dark/50 text-white backdrop-blur-sm border border-surface-hover">2023</span>
+</div>
+<h1 class="text-white text-4xl sm:text-5xl md:text-6xl font-black leading-tight tracking-tight">
+                                    Nexus Financial Platform
+                                </h1>
+<p class="text-slate-200 text-lg sm:text-xl font-normal leading-relaxed max-w-2xl">
+                                    A complete overhaul of a legacy banking dashboard, improving load times by 40% and introducing real-time analytics for over 50,000 active users.
+                                </p>
+<div class="flex flex-wrap items-center gap-4 mt-4">
+<button class="flex h-12 px-6 items-center justify-center rounded-lg bg-primary hover:bg-primary/90 text-white text-base font-bold transition-all shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:-translate-y-0.5">
+<span class="material-symbols-outlined mr-2">open_in_new</span>
+                                        Live Demo
+                                    </button>
+<button class="flex h-12 px-6 items-center justify-center rounded-lg bg-surface-dark/80 hover:bg-surface-hover text-white text-base font-bold transition-all backdrop-blur-sm border border-surface-hover hover:-translate-y-0.5">
+<span class="material-symbols-outlined mr-2">code_blocks</span>
+                                        View Source
+                                    </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Sections Container -->
+<div class="px-4 sm:px-6 lg:px-8 flex flex-col gap-16 max-w-4xl mx-auto lg:mx-0">
+<!-- The Challenge -->
+<section class="scroll-mt-24 pt-8" id="challenge">
+<div class="flex items-center gap-3 mb-6">
+<div class="p-2 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">target</span>
+</div>
+<h2 class="text-3xl font-bold tracking-tight">The Challenge</h2>
+</div>
+<div class="prose prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-300 text-lg leading-relaxed space-y-6">
+<p>
+                                    The existing platform was built on an aging monolithic architecture that struggled to handle peak trading hours. Users reported significant latency during market opens, and the interface felt cluttered and unintuitive compared to modern alternatives.
+                                </p>
+<div class="grid sm:grid-cols-2 gap-6 mt-8">
+<div class="p-6 rounded-xl bg-surface-dark/30 border border-slate-200 dark:border-surface-hover">
+<h3 class="text-xl font-semibold mb-3 flex items-center gap-2 text-slate-800 dark:text-slate-100">
+<span class="material-symbols-outlined text-red-400">speed</span> Performance Issues
+                                        </h3>
+<p class="text-sm">Page loads frequently exceeded 5 seconds during high-traffic periods, leading to user frustration and lost engagement.</p>
+</div>
+<div class="p-6 rounded-xl bg-surface-dark/30 border border-slate-200 dark:border-surface-hover">
+<h3 class="text-xl font-semibold mb-3 flex items-center gap-2 text-slate-800 dark:text-slate-100">
+<span class="material-symbols-outlined text-amber-400">design_services</span> Outdated UX
+                                        </h3>
+<p class="text-sm">The dashboard presented too much unorganized data at once, making it difficult for users to find critical information quickly.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- The Solution -->
+<section class="scroll-mt-24" id="solution">
+<div class="flex items-center gap-3 mb-6">
+<div class="p-2 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">lightbulb</span>
+</div>
+<h2 class="text-3xl font-bold tracking-tight">The Solution</h2>
+</div>
+<div class="prose prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-300 text-lg leading-relaxed space-y-6">
+<p>
+                                    We proposed a complete rewrite using a modern micro-frontend architecture combined with a robust GraphQL API layer. This allowed us to decouple the heavy data processing from the presentation layer.
+                                </p>
+<ul class="list-none space-y-4 mt-6">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<span><strong>Microservices Migration:</strong> Split the monolith into targeted services for real-time pricing, user data, and transaction history.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<span><strong>Optimistic UI:</strong> Implemented optimistic updates for perceived instant interactions during trading.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+<span><strong>Component Library:</strong> Developed a custom, accessible design system tailored for high-density data displays.</span>
+</li>
+</ul>
+</div>
+</section>
+<!-- Tech Used -->
+<section class="scroll-mt-24" id="tech">
+<div class="flex items-center gap-3 mb-6">
+<div class="p-2 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">code</span>
+</div>
+<h2 class="text-3xl font-bold tracking-tight">Tech Stack</h2>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="flex flex-col items-center justify-center p-6 rounded-xl bg-surface-dark/50 border border-surface-hover hover:border-primary/50 transition-colors group cursor-pointer">
+<span class="material-symbols-outlined text-4xl mb-3 text-slate-400 group-hover:text-primary transition-colors">language</span>
+<span class="font-medium">React &amp; Next.js</span>
+</div>
+<div class="flex flex-col items-center justify-center p-6 rounded-xl bg-surface-dark/50 border border-surface-hover hover:border-primary/50 transition-colors group cursor-pointer">
+<span class="material-symbols-outlined text-4xl mb-3 text-slate-400 group-hover:text-primary transition-colors">api</span>
+<span class="font-medium">GraphQL</span>
+</div>
+<div class="flex flex-col items-center justify-center p-6 rounded-xl bg-surface-dark/50 border border-surface-hover hover:border-primary/50 transition-colors group cursor-pointer">
+<span class="material-symbols-outlined text-4xl mb-3 text-slate-400 group-hover:text-primary transition-colors">database</span>
+<span class="font-medium">PostgreSQL</span>
+</div>
+<div class="flex flex-col items-center justify-center p-6 rounded-xl bg-surface-dark/50 border border-surface-hover hover:border-primary/50 transition-colors group cursor-pointer">
+<span class="material-symbols-outlined text-4xl mb-3 text-slate-400 group-hover:text-primary transition-colors">cloud</span>
+<span class="font-medium">AWS</span>
+</div>
+</div>
+</section>
+<!-- Gallery -->
+<section class="scroll-mt-24" id="gallery">
+<div class="flex items-center gap-3 mb-6">
+<div class="p-2 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">gallery_thumbnail</span>
+</div>
+<h2 class="text-3xl font-bold tracking-tight">Project Screenshots</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="group relative rounded-xl overflow-hidden cursor-pointer">
+<img alt="Dashboard data visualization" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDs4kOHL2bV4o1g0lNdU6xDEqg6zwYQ269IOTFxu1ykbakckoQ2U30dRkcQJBLNA9OlDH6DGOtceumqkq68UNNNYfWCyR7JdP5SQvL08iGx-zOhOeyce_-sVLOoEkheWGPJv-Lf6CbpqQxIxoo0OqCUDOitoquXsYIpWkTFCq03zc8oKSAGRPygOr1BcSeED1CeuKxwQGipI1VvWDP0_VwtyxG1cu1e6mVqiW1O9_7UQza-PuavUIsSqFm8IHLdfhbz1IeLleE0oLO5"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+<span class="text-white font-medium">Main Analytics Dashboard</span>
+</div>
+</div>
+<div class="group relative rounded-xl overflow-hidden cursor-pointer">
+<img alt="Code interface showing modern tech stack" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4oo-6lpC3G8vKn-M-vDRezjyh9iiW1Aj2aBI1nH-fDphl0KqugKA8GO6NtF6D9vmtda7cYFm1E3RDSU9zHG2i0EJ7W6eXN9-meSdUcql_19tADN_cosRUVeRUxfH__AWrlH52UrA3FcwFquYdmwyv20MPkKjcGvW_eJVZ_A6AXyktBbOILMHii8EqhShz_8PZyP6zXI6gmCPhqIHVAUZQq8I48t_gRbcdUiu8YO104n_FsL45bPNWJ7fj4wZPpzh2IZ8INPG2f0WS"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+<span class="text-white font-medium">Trading Interface</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Next/Prev Project Navigation -->
+<div class="mt-12 pt-8 border-t border-slate-200 dark:border-surface-hover flex justify-between items-center">
+<a class="group flex flex-col gap-1 text-slate-500 hover:text-primary transition-colors" href="#">
+<span class="text-xs uppercase tracking-wider font-semibold">Previous Project</span>
+<span class="text-lg font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary flex items-center gap-2">
+<span class="material-symbols-outlined">arrow_back</span> E-Commerce App
+                                </span>
+</a>
+<a class="group flex flex-col items-end gap-1 text-slate-500 hover:text-primary transition-colors" href="#">
+<span class="text-xs uppercase tracking-wider font-semibold">Next Project</span>
+<span class="text-lg font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary flex items-center gap-2">
+                                    AI Image Generator <span class="material-symbols-outlined">arrow_forward</span>
+</span>
+</a>
+</div>
+</div>
+</main>
+</div>
+</div>
+</div>
+</body></html>
