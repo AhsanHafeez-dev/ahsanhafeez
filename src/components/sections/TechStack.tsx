@@ -1,6 +1,7 @@
 import { skillCategories } from "@/lib/data";
 
 // Extracted from original design
+// adding python langchain flask spring boot  express prisma etc
 const topTech = [
     { name: "JavaScript", icon: "javascript" },
     { name: "TypeScript", icon: "code_blocks" },
@@ -8,6 +9,12 @@ const topTech = [
     { name: "Node.js", icon: "terminal" },
     { name: "PostgreSQL", icon: "database" },
     { name: "Tailwind", icon: "palette" },
+    { name: "Python", icon: "code" },
+    { name: "LangChain", icon: "code" },
+    { name: "Flask", icon: "code" },
+    { name: "Spring Boot", icon: "code" },
+    { name: "Express", icon: "code" },
+    { name: "Prisma", icon: "code" },
 ];
 
 export default function TechStack() {
